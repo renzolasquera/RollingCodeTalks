@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <title>404 - ERROR</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body class="d-flex flex-column justify-content-between vh-100">
+    <header class="zindex2">
+        <nav class="navbar navbar-expand bg-dark navbar-dark">
+            <div class="container">
+              <a class="navbar-brand d-flex align-items-center gap-2" href="#"
+                ><img class="img-logo" src="/img/logo.png" alt="logo" />Talks</a
+              >
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item ">
+                    <a class="nav-link" aria-current="page" href="/index.html">La conferencia</a>
+                  </li>
+                 
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main class="h-100">
+      <section>
+        <div class="background404">
+          <img src="/img/404/lenguaje-de-programacion.png" class="position-relative backgroundimg" alt="programacion wallpaper">
+          <div class="overlay">
+            <!-- <div class="background404"> -->
+              <img src="/img/404/windowsxp.png" class="position-absolute backgroundimg d-none d-md-block d-lg-block" alt="fondowindowsxp">
+            <div class="container h-100 position-absolute">
+            <div class= "row e404 align-items-center">
+            <div class="col-12 col-md-8 offset-md-3 col-lg-6 offset-lg-2 text-center text-md-start text-lg-start">
+              <div class="h-100 align-items-center flex-column flex-md-row">
+              <h1><i class="fa-solid fa-face-dizzy"></i> Lo sentimos!</h1>
+              <p>No hemos podido encontrar la página que estás buscando (Error 404: Not Found)</p>
+              <div class="row-cols-1 row-cols-md-auto">
+              <a href="/index.html" class="btn btn-outline-light my-1">Volver a la página de la conferencia</a>
+              <a href="#" data-bs-toggle="modal" data-bs-target="#ModalTicket" class="btn btn-info my-1">Comprar Tickets</a>
+            </div>
+              </div>
+            </div>
+            <div class="rclogo d-none d-lg-block">
+              <img src="/img/404/rcs desintegrado.png" alt="rc logo desintegrado">
+            </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+        <footer class="footer">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12 col-md col-lg">
+                        <a href="#" class="footer_items">Terminos y condiciones</a>
+                    </div>
+                    <div class="col-12 col-md col-lg">
+                        <a href="#" class="footer_items">Contáctanos</a>
+                    </div>
+                    <div class="col-12 col-md col-lg">
+                        <a href="#" class="footer_items">Preguntas frecuentes</a>
+                    </div>
+                    <div class="col-12 col-md col-lg">
+                        <a href="#" class="footer_items">Privacidad</a>
+                    </div>
+                    <div class="col-12 col-md col-lg">
+                        <a href="#" class="footer_items">Asistentes</a>
+                    </div>
+                </div>
+            </div>
+    </footer>
+    <!-- modal -->
+    <div class="modal fade" id="ModalTicket" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel"><img class="bg-dark rounded" src="/img/favicon.png" alt="rollingicon"> Compra tu Ticket</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">Ingresa tu E-mail</label>
+            </div>
+            <div class="alert alert-warning text-center" role="alert">
+              Te enviaremos un correo
+            </div>            
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-success">Comprar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/8cfaa6df50.js" crossorigin="anonymous"></script>
+</body>
+</html>
